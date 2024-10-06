@@ -1,4 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// See https://aka.ms/new-console-template for more informatio
 
-var primaryPlayer = PrimaryPalyer.GetInstance();
+GameBoard gameBoard = new GameBoard();
+gameBoard.PlayArea(1);
+
+Console.ReadKey();
