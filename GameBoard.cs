@@ -14,6 +14,10 @@ public class GameBoard{
         }
     }
 
+    public void PlaySpecial (){
+        //_primaryPalyer.weapon = new WeaponAdapter(_primaryPalyer.weapon);
+    }
+
     public void PlayFirst(){
         List<IEnemy> enemies = new List<IEnemy>();
 
